@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@tauri-apps/api':
+    specifier: ^1.5.1
+    version: registry.npmmirror.com/@tauri-apps/api@1.5.1
+
 devDependencies:
   '@sveltejs/adapter-static':
     specifier: ^2.0.3
@@ -581,6 +586,13 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  registry.npmmirror.com/@tauri-apps/api@1.5.1:
+    resolution: {integrity: sha512-6unsZDOdlXTmauU3NhWhn+Cx0rODV+rvNvTdvolE5Kls5ybA6cqndQENDt1+FS0tF7ozCP66jwWoH6a5h90BrA==, tarball: https://registry.npmmirror.com/@tauri-apps/api/-/api-1.5.1.tgz}
+    name: '@tauri-apps/api'
+    version: 1.5.1
+    engines: {node: '>= 14.6.0', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
+    dev: false
 
   registry.npmmirror.com/@tauri-apps/cli-darwin-arm64@1.5.6:
     resolution: {integrity: sha512-NNvG3XLtciCMsBahbDNUEvq184VZmOveTGOuy0So2R33b/6FDkuWaSgWZsR1mISpOuP034htQYW0VITCLelfqg==, tarball: https://registry.npmmirror.com/@tauri-apps/cli-darwin-arm64/-/cli-darwin-arm64-1.5.6.tgz}
