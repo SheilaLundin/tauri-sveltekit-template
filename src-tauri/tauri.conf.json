@@ -7,7 +7,7 @@
 		"distDir": "../build"
 	},
 	"package": {
-		"productName": "tauri-sveltekit-template",
+		"productName": "{{project-name}}",
 		"version": "0.1.0"
 	},
 	"tauri": {
@@ -61,7 +61,7 @@
 				"fullscreen": false,
 				"height": 600,
 				"resizable": true,
-				"title": "tauri-sveltekit-template",
+				"title": "{{project-name}}",
 				"width": 800,
 				"center": true
 			}
