@@ -12,6 +12,14 @@ tauri-build = { version = "1", features = [] }
 serde_json = "1"
 serde = { version = "1", features = ["derive"] }
 tauri = { version = "1", features = [] }
+time = { version = "0", features = ["macros"] }
+tracing = "0"
+tracing-subscriber = { version = "0", features = ["local-time"] }
+tracing-appender = "0"
+cfg-if = "1"
+single-instance = "0"
+color-eyre = "0"
+dunce = "1"
 
 [features]
 # this feature is used for production builds or when `devPath` points to the filesystem and the built-in dev server is disabled.
