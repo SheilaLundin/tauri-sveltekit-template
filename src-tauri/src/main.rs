@@ -2,7 +2,7 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 #[tauri::command]
-async fn command_name(app: tauri::AppHandle<R>, window: tauri::Window<R>) -> Result<(), String> {
+async fn command_name(app: tauri::AppHandle, window: tauri::Window) -> Result<(), String> {
   Ok(())
 }
 
